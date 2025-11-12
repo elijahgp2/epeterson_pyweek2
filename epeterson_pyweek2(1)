@@ -1,0 +1,23 @@
+# Take input from the user
+num1 = input("Enter the first number: ")
+num2 = input("Enter the second number: ")
+
+# Show data type before casting
+print("Before casting, num1 data type:", type(num1))
+print("Before casting, num2 data type:", type(num2))
+
+# Convert inputs from string to float
+num1 = float(num1)
+num2 = float(num2)
+
+# Show data type after casting
+print("After casting, num1 data type:", type(num1))
+print("After casting, num2 data type:", type(num2))
+
+# Perform arithmetic operations
+sum_result = num1 + num2
+avg_result = (num1 + num2) / 2
+
+# Print results
+print("Sum:", sum_result)
+print("Average:", avg_result)
